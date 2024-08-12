@@ -6,6 +6,11 @@ Credit card fraud is a significant problem that requires robust detection method
 ## 2. Dataset Background
 The dataset consists of transactions made by European cardholders in September 2013, encompassing 284,807 transactions over two days. Among these, only 492 transactions were fraudulent, making the dataset highly imbalanced, with fraudulent transactions accounting for just 0.172% of the total.
 
+The Dataset :
+The data was taken from Kaggle site : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud .
+
+The Columns do not have physical significance directly visible since as per the source (Kaggle) , the data was compressed using Principle Component Analysis (PCA) in order to protect the privacy of the individuals while making a realistic secnario dataset availaible to public .
+
 ### 2.1 Features
 - **Time**: Seconds elapsed between each transaction and the first transaction in the dataset.
 - **Amount**: Transaction amount, which could be used for cost-sensitive learning.
